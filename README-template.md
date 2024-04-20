@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Screenshot
 
-(/assets/images/age-calculator.pngage-calculatpr.png)
+![](/assets/images/age-calculator.png)
 
 ### Links
 
