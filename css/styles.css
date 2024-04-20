@@ -72,7 +72,7 @@ hr {
   width: 25%;
   margin-right: 50px;
 }
-#btn-submit img {
+#btn-submit svg {
   max-width: 36px;
   max-height: 36px;
   background: var(--primary-font-color);
@@ -129,7 +129,7 @@ hr {
     margin-bottom: 30%;
     margin-top: 20%;
   }
-  #btn-submit img {
+  #btn-submit svg {
     max-width: 24px;
     max-height: 24px;
     padding: 15px;
