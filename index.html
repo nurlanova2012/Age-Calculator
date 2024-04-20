@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Frontend Mentor | Age calculator app</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="content">
+          <form id="date-input" action="/" class="date-input">
+            <div id="day" class="form-group">
+              <label for="day">Day</label>
+              <input
+                id="day-input"
+                type="number"
+                name="day"
+                placeholder="DD"
+                maxlength="2"
+              />
+              <span class="error-message">Must be a valid day</span>
+            </div>
+            <div id="month" class="form-group">
+              <label for="month">Month</label>
+              <input
+                id="month-input"
+                type="number"
+                name="month"
+                placeholder="MM"
+                maxlength="2"
+              />
+              <span class="error-message">Must be a valid month</span>
+            </div>
+            <div id="year" class="form-group">
+              <label for="year">Year</label>
+              <input
+                id="year-input"
+                type="number"
+                name="year"
+                placeholder="YYYY"
+                maxlength="4"
+              />
+              <span class="error-message">Must be in the past</span>
+            </div>
+          </form>
+          <hr />
+          <a href="#" id="btn-submit">
+            <img src="/assets/images/icon-arrow.svg" alt="icon-arrow" />
+          </a>
+
+          <div id="date-output" class="date-output">
+            <h1 class="output">
+              <span class="output-date" id="years">--</span> YEARS
+            </h1>
+            <h1 class="output">
+              <span class="output-date" id="months">--</span> MONTHS
+            </h1>
+            <h1 class="output">
+              <span class="output-date" id="days">--</span> DAYS
+            </h1>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
