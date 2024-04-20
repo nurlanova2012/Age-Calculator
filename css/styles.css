@@ -61,7 +61,7 @@ hr {
   margin: 5% auto;
   background-color: #fff;
   padding: 50px;
-  border-radius: 8px 8px 6rem 8px;
+  border-radius: 8px 8px 16rem 8px;
 }
 .date-input {
   display: flex;
